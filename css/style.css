@@ -1,3 +1,59 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #606060;
+}
+
+a {
+    color: #339933;
+}
+
+a:hover {}
+
+header {
+    background: #292929;
+}
+
+.center-block-main {
+    margin: 0 auto;
+    max-width: 990px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin-top: 45px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+    font-weight: 600;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 50px 35px;
+    display: block;
+    border-bottom: 3px solid #292929;
+}
+
+.menu li a:hover {
+    color: #58c93a;
+    border-bottom: 3px solid #339933;
+}
+
+.main {
+    float: left;
+    background: green;
+    width: 62.5%;
+}
+
+aside {
+    float: right;
+    width: 28.3%;
+    background: red;
 }
