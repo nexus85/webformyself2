@@ -48,12 +48,14 @@ header {
 
 .main {
     float: left;
-    background: green;
+    /* background: green; */
     width: 62.5%;
+    margin-top: 70px;
 }
 
 aside {
     float: right;
     width: 28.3%;
-    background: red;
+    /* background: red; */
+    margin-top: 70px;
 }
